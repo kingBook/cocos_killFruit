@@ -1,0 +1,54 @@
+﻿生成启动时间为 2015/7/8 15:16:11。
+     1>项目“E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\killFruit.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx\include" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx\platform\win32" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\external" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\CocosDenshion\include" /I"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Star.cpp
+         Star.cpp
+       PreLinkEvent:
+         if not exist "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\" mkdir "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\"
+         xcopy /Y /Q "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\killFruit.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\killFruit.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\killFruit.lib" /MACHINE:X86 /SAFESEH Debug.win32\ActivityBag.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\ChangeColorBar.obj
+         Debug.win32\FailureUI.obj
+         Debug.win32\Game.obj
+         Debug.win32\GameData.obj
+         Debug.win32\GameEndAnim.obj
+         Debug.win32\GameEndMessageUI.obj
+         Debug.win32\GameLevel.obj
+         Debug.win32\GameMessageUI.obj
+         Debug.win32\GoodEffect.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\HelpUI.obj
+         Debug.win32\MysteryPrizeBag.obj
+         Debug.win32\NoviceBag.obj
+         Debug.win32\PauseUI.obj
+         Debug.win32\PropUI.obj
+         Debug.win32\RandomArr.obj
+         Debug.win32\ReceiveBag.obj
+         Debug.win32\ScoreAnim.obj
+         Debug.win32\ScreenText.obj
+         Debug.win32\Shop.obj
+         Debug.win32\Star.obj
+         Debug.win32\StarManager.obj
+         Debug.win32\StarsBoard.obj
+         Debug.win32\StarsPosition.obj
+         Debug.win32\StartAnim.obj
+         Debug.win32\Title.obj
+         Debug.win32\UI.obj
+         Debug.win32\WantContinueUI.obj
+         Debug.win32\main.obj
+         "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\libcocos2d.lib"
+         "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\libExtensions.lib"
+         "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\libBox2D.lib"
+         "E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\libchipmunk.lib"
+     1>ActivityBag.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         killFruit.vcxproj -> E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\Debug.win32\killFruit.exe
+     1>已完成生成项目“E:\cocos2d-x-2.2.6\projects\killFruit\proj.win32\killFruit.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.89
